@@ -83,10 +83,6 @@ alias grc='git rebase --continue'
 # source git command completion shell
 # source "/Users/zhenwu/.git-completion.sh"
 
-##
-# Your previous /Users/zhenwu/.bash_profile file was backed up as /Users/zhenwu/.bash_profile.macports-saved_2011-06-22_at_17:47:31
-##
-
 # Functions
 function parse_git_branch {
     ref=$(git symbolic-ref HEAD 2> /dev/null) || return;
